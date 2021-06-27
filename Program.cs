@@ -70,7 +70,7 @@ namespace dnd
         {
             if (args.Count() < 2)
             {
-                Console.WriteLine("Please provide a typename. Eg: System.String");
+                Console.WriteLine("Please provide a assembly file name and a typename. Eg: System.Runtime System.String");
                 Environment.Exit(1);
             }
             return new Config
